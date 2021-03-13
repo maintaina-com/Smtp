@@ -11,31 +11,26 @@
             "role": "lead"
         }
     ],
-    "version": "1.9.7",
-    "time": "2020-11-19",
+    "time": "2021-03-13",
     "repositories": [
         {
-            "type": "pear",
-            "url": "https://pear.horde.org"
+            "type": "composer",
+            "url": "https://horde-satis.maintaina.com/"
         }
     ],
     "require": {
-        "php": "^5.3 || ^7",
-        "pear-pear.horde.org/Horde_Exception": "^2",
-        "pear-pear.horde.org/Horde_Mail": "^2",
-        "pear-pear.horde.org/Horde_Socket_Client": "^2",
-        "pear-pear.horde.org/Horde_Support": "^2",
-        "pear-pear.horde.org/Horde_Translation": "^2.2",
-        "pear-pear.horde.org/Horde_Util": "^2"
+        "php": "^7",
+        "horde/exception": "^3",
+        "horde/mail": "^3",
+        "horde/socket_client": "^3",
+        "horde/support": "^3",
+        "horde/translation": "^3",
+        "horde/util": "^3"
     },
     "suggest": {
-        "pear-pear.horde.org/Horde_Imap_Client": "^2",
-        "pear-pear.horde.org/Horde_Secret": "^2",
-        "pear-pear.horde.org/Horde_Test": "^2.1"
-    },
-    "replace": {
-        "pear-pear.horde.org/Horde_Smtp": "1.*",
-        "pear-horde/Horde_Smtp": "1.*"
+        "horde/imap_client": "^3",
+        "horde/secret": "^3",
+        "horde/test": "^3"
     },
     "autoload": {
         "psr-0": {
